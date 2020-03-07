@@ -31,7 +31,7 @@ I deal with applications in Java. So, I learnt about the basics of ANT, Maven an
     </target>
 </project>
 ```
-
+- - above file is a typical build.xml file.
 The above is an example of build.xml file in ANT. 
 - In ANT, there will be project element which contains muliples target elements and properties.
 - Each target element represents an action that it has to execute. Here one target can depend upon other targets. i.e we are telling  ANT to not execute a particular target before executing the targets it depend upon.
@@ -69,7 +69,8 @@ It was designed using plugin based architecture.That means we can easily extend 
 </project>
 ```
 
-From above file we can see that while creating a project, we need to give an unique project coordinates which will be used for identifying the project.
+- above file is a typical pom.xml file.
+- From the above file we can see that while creating a project, we need to give an unique project coordinates which will be used for identifying the project.
 - GroupId - an uniqueIdentifier to a project. 
 - artifactId - name of project
 - verionId - version number
