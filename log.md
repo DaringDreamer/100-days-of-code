@@ -15,3 +15,5 @@ I use this challenge to learn the things that I had craved in the last 3 months.
 
 
 ## Day 1 
+- Learnt about the basics of ANT and Maven. (https://github.com/RamAndKrishna/100-days-of-code/blob/master/Day_One.md) 
+- feelings : I spent too much time to think about project ideas. I thought of not to proceed with the challenge but I got a great support from the twitter community. With that support I learnt about basics of Build Systems.
