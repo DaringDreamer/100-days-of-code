@@ -8,7 +8,10 @@ I use this challenge to learn the things that I had craved in the last 3 months.
 - Unit Testing in Java
 - Lambdas in Java.
 - making a website where people can paste their code or any text to share it with others.
-- reviewing code of team members.
+
+
+
+
 
 
 Day 1 
