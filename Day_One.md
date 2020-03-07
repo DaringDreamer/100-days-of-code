@@ -5,7 +5,7 @@ build systems provides a way to automate the tasks( compiling, creating build ar
 I deal with applications in Java. So, I learnt about the basics of ANT, Maven and Gradle.
 
 ## ANT(Another Neat Tool) :
-- It is build system in java. It uses XML as input. 
+- It is build system for java projects. It uses XML as input. 
 - The developers have to specify the build steps and action in build.xml file.
 
 ```
@@ -32,9 +32,9 @@ I deal with applications in Java. So, I learnt about the basics of ANT, Maven an
 </project>
 ```
 
-The above is an example of build.xml file in ANT. In ANT, there will be project element which contains muliples target elements.
-Each target element represents an action that it has to execute. Here one target can depend upon other targets. i.e we are telling 
-ANT to not execute a particular target before executing the targets it depend upon.
+The above is an example of build.xml file in ANT. 
+- In ANT, there will be project element which contains muliples target elements and properties.
+- Each target element represents an action that it has to execute. Here one target can depend upon other targets. i.e we are telling  ANT to not execute a particular target before executing the targets it depend upon.
 
 ## Maven 
 It is also a build tool created by Apache Foundation. It is very popular because of its features. Those are managing build process and dependency management.
