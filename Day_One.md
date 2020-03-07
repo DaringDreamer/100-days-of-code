@@ -66,7 +66,7 @@ It was designed using plugin based architecture.That means we can easily extend 
 </project>
 ```
 
-From above file we can see that we need to give an unique project coordinates which will be used for identifying the project.
+From above file we can see that while creating a project, we need to give an unique project coordinates which will be used for identifying the project.
 - GroupId - an uniqueIdentifier to a project. 
 - artifactId - name of project
 - verionId - version number
