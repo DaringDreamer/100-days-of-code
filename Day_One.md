@@ -42,6 +42,7 @@ It was designed using plugin based architecture.That means we can easily extend 
 
 - People like this because it takes care of managing dependecies. (i.e it fetches dependencies if you specify unique coordinates of dependencies. It also fetches the dependencies of dependencies) 
 - Maven believes on Convention rather than configuration. i.e Maven provides default values for the project.So developers most of the times don't have to do anything.
+- the build process was stores in pom.xml
 
 
 ```
@@ -70,6 +71,9 @@ From above file we can see that while creating a project, we need to give an uni
 - GroupId - an uniqueIdentifier to a project. 
 - artifactId - name of project
 - verionId - version number
+
+
+### It was also designed based on large projects. If a project has 4 sub projects and each sub projects has its own pom.xml file then in the root project we can execute all the children pom.xml files by using one command.
 
 It has a dependency section where we just need to specify groupId, artifactId and verion. Then maven takes care of downloading them and making it available during the build process.
 
