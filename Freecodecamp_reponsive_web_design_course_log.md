@@ -12,3 +12,15 @@ learnt about following topics
 - Using tabindex and accesskey to make UI elements accessible by keyboard.
 - using date picker for letting users to select dates.
 - providing accessibily controls for audio.
+
+
+
+
+
+
+**Responsive Web Design Principles:**
+
+learnt about following topics
+- applying different CSS styles for different device sizes in order to create best experience for all customers.
+- Making image responsive.(by uisng max-width: 100% and heigh: auto for images)
+- Setting text sizes based on the device size
