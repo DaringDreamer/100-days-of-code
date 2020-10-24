@@ -40,6 +40,6 @@ learnt about following topics
  - `flex-grow`  property controls the size of items when the parent container expands.Higher the value higher growness.
  - The `flex-basis` property specifies the initial size of the item
  - `order` property controls the sequence of the flex items. Lower the value first the elements gets arranged.
- - `align-self`. This property allows us to adjust each item's alignment individually, instead of setting them all at once
+ - `align-self`. This property allows us to adjust each item's alignment individually, instead of setting them all at once using `align-items`
  
   
